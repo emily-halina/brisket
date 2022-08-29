@@ -1,0 +1,7 @@
+README.md
+setup.py
+gym_fightingice.egg-info/PKG-INFO
+gym_fightingice.egg-info/SOURCES.txt
+gym_fightingice.egg-info/dependency_links.txt
+gym_fightingice.egg-info/requires.txt
+gym_fightingice.egg-info/top_level.txt
