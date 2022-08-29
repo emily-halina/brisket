@@ -2,11 +2,11 @@
 
 ![Brisket!!!!!!!](banner.png)
 
-Brisket is an automated behaviour generation system for creating fighting game AI that exhibit diverse strategies from one another using deep reinforcement learning. 
+Brisket is an automated behaviour generation system for creating fighting game AI agents of a similar difficulty that exhibit diverse strategies from one another using deep reinforcement learning. 
 
 On a high level, the approach involves training multiple agents concurrently, rewarding each agent based on their diversity from one another according to a learned discriminator. We then fine-tune these agents individually on a general reward function with the goal of creating agents of a similar difficulty that are diverse from one another. 
 
-This repository contains code required to generate an arbitrary number of agents, along with means of evaluating said agents. We provide 3 pre-trained diverse agents created using this approach, along with 3 agents using more traditional deep reinforcement learning 
+This repository contains code required to generate an arbitrary number of agents, along with means of evaluating said agents. We provide 3 pre-trained diverse agents created using this approach, along with 3 agents using more traditional deep reinforcement learning methods.
 
 Technical details of how the Brisket approach works and an initial evaluation of the approach are covered in "Diversity-based Deep Reinforcement Learning Towards Multidimensional Difficulty for Fighting Game AI" (pdf link soon), an upcoming workshop paper at [EXAG 2022](https://www.exag.org/). If you use this work in any capacity in a research project or publication, please include the following citation.
 
@@ -121,7 +121,7 @@ The state of each agent is saved at the end of each training episode. You can us
 
 ⚠️ Currently, the code is set up to work on Windows. Some changes (such as file paths) will need to be made to the code / FightingICE setup in order for it to work on other OS.
 
-⚠️ The gymexe.py (and a lot of the code in general) file is kind of a mess. Sorry! This was around a 9 month long project that needed to be ported from different environments multiple times, which led to a lot of indeal stuff. However, I've tried my best to make it as usuable as possible (also by providing this readme). Maybe I'll make it less of a mess in the future, but I have a lot to work on right now!
+⚠️ The gymexe.py (and a lot of the code in general) file is kind of a mess. Sorry! This was around a 9 month long project that needed to be ported from different environments multiple times, which led to a lot of indeal stuff. However, I've tried my best to make it as usable as possible (also by providing this readme). Maybe I'll make it less of a mess in the future, but I have a lot to work on right now!
 
 ⚠️ Extraneous requirements may exist in the requirements.txt file. Sorry!
 
