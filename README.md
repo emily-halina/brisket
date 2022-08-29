@@ -73,6 +73,8 @@ The evaluation is set up this way in order to facilitate a round-robin tournamen
 
 The results of each of the matches are automatically recorded in tourney_results.csv.
 
+As well, there is an additional evaluation used in the paper that measures the diversity 
+
 # Provided Agents
 We provide 6 pre-trained agents for your use and perusal! 3 of these agents were learned using Brisket, while the other 3 were learned using a traditional Deep Q approach. These agents can be found in models/FinalAI.
 
@@ -120,6 +122,8 @@ The state of each agent is saved at the end of each training episode. You can us
 ⚠️ Currently, the code is set up to work on Windows. Some changes (such as file paths) will need to be made to the code / FightingICE setup in order for it to work on other OS.
 
 ⚠️ The gymexe.py (and a lot of the code in general) file is kind of a mess. Sorry! This was around a 9 month long project that needed to be ported from different environments multiple times, which led to a lot of indeal stuff. However, I've tried my best to make it as usuable as possible (also by providing this readme). Maybe I'll make it less of a mess in the future, but I have a lot to work on right now!
+
+⚠️ Extraneous requirements may exist in the requirements.txt file. Sorry!
 
 ## License and Attribution
 This respository uses the [MIT license.](https://choosealicense.com/licenses/mit/)
