@@ -65,7 +65,7 @@ The performance of the trained agent is measured by the average reward across on
 
 # Evaluation
 To evaluate agents against one another, you need to modify a couple of flags in different files. 
-1. In gym_exe.py, set "training" and "train_eval" to false, and "test_eval" to true (on lines 19-21 respectively). Replace the models listed in "model_list" with the names of your agents.
+1. In gymexe.py, set "training" and "train_eval" to false, and "test_eval" to true (on lines 19-21 respectively). Replace the models listed in "model_list" with the names of your agents.
 2. In gym_fightingice/envs/RandomAI.py, set "self.tournament" to true on line 49. Replace the parameter of self.architecture on line 53 to the name of your desired model.
 3. Run gymexe.py to have your agents fight!
 
@@ -73,7 +73,7 @@ The evaluation is set up this way in order to facilitate a round-robin tournamen
 
 The results of each of the matches are automatically recorded in tourney_results.csv.
 
-As well, there is an additional evaluation used in the paper that measures the diversity 
+As well, there is an additional evaluation used in the paper that measures the diversity of the actions taken by each agent over a set of saved states. This code can be found in the randomexe.py script, and this training data can be created and saved using gymexe.py.
 
 # Provided Agents
 We provide 6 pre-trained agents for your use and perusal! 3 of these agents were learned using Brisket, while the other 3 were learned using a traditional Deep Q approach. These agents can be found in models/FinalAI.
