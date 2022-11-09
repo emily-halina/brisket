@@ -8,10 +8,15 @@ On a high level, the approach involves training multiple agents concurrently, re
 
 This repository contains code required to generate an arbitrary number of agents, along with means of evaluating said agents. We provide 3 pre-trained diverse agents created using this approach, along with 3 agents using more traditional deep reinforcement learning methods.
 
-Technical details of how the Brisket approach works and an initial evaluation of the approach are covered in "Diversity-based Deep Reinforcement Learning Towards Multidimensional Difficulty for Fighting Game AI" (pdf link soon), an upcoming workshop paper at [EXAG 2022](https://www.exag.org/). If you use this work in any capacity in a research project or publication, please include the following citation.
+Technical details of how the Brisket approach works and an initial evaluation of the approach are covered in ["Diversity-based Deep Reinforcement Learning Towards Multidimensional Difficulty for Fighting Game AI"](https://arxiv.org/abs/2211.02759), a workshop paper at [EXAG 2022](https://www.exag.org/). If you use this work in any capacity in a research project or publication, please include the following citation.
 
 ```
-(citation information coming soon. . .)
+@article{halina2022diversity,
+  title={Diversity-based Deep Reinforcement Learning Towards Multidimensional Difficulty for Fighting Game AI},
+  author={Halina, Emily and Guzdial, Matthew},
+  journal={arXiv preprint arXiv:2211.02759},
+  year={2022}
+}
 ```
 
 This repository builds off the [existing gym environment](https://github.com/TeamFightingICE/Gym-FightingICE) maintained by the developers of FightingICE. Check out the [official FightingICE website](http://www.ice.ci.ritsumei.ac.jp/~ftgaic/) for more information about FightingICE and its associated AI competitions.
@@ -121,7 +126,7 @@ The state of each agent is saved at the end of each training episode. You can us
 
 ⚠️ Currently, the code is set up to work on Windows. Some changes (such as file paths) will need to be made to the code / FightingICE setup in order for it to work on other OS.
 
-⚠️ The gymexe.py (and a lot of the code in general) file is kind of a mess. Sorry! This was around a 9 month long project that needed to be ported from different environments multiple times, which led to a lot of indeal stuff. However, I've tried my best to make it as usable as possible (also by providing this readme). Maybe I'll make it less of a mess in the future, but I have a lot to work on right now!
+⚠️ The gymexe.py (and a lot of the code in general) file is kind of a mess. Sorry! This was around a 9 month long project that needed to be ported from different environments multiple times, which led to a lot of unideal stuff. However, I've tried my best to make it as usable as possible (also by providing this readme). Maybe I'll make it less of a mess in the future, but I have a lot to work on right now!
 
 ⚠️ Extraneous requirements may exist in the requirements.txt file. Sorry!
 
